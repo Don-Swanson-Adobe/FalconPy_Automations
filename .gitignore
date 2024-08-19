@@ -1,0 +1,38 @@
+# Don's Weirdo Python .gitignore
+# Powered by PFM and Unicorns
+# Byte-compiled / optimized / DLL files
+**/__pycache__/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# PEP 582; used by e.g. github.com/David-OConnor/pyflow and github.com/pdm-project/pdm
+__pypackages__/
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# pytype static type analyzer
+.pytype/
+
+
+# Don't mind me, I'm just a weirdo
+auths/
+special_projects/
+CIA_projects/
+NSA_projects/
+.DS_Store
