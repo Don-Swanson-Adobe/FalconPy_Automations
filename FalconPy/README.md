@@ -17,6 +17,10 @@ In order to keep Authentication credentials separate, please edit the auth.py wi
   - Adds a specified Falcon Sensor Tag (AKA Console Tag) to a list of hosts defined by serial number. The source file should be only serial numbers with a separate one on each line.  
 - Bulk_Edit_Detections.py  
   - Script to be able to bulk update detections    
+- Clone_Prevention_Policy.py  
+  - Used for Cloning Prevention Policies from one CID to another.  
+- Clone_Update_Policy.py  
+  - Used for Cloning Update Policies from one CID to another.  
 - Create_Group_Add_To_Prev_Policy.py  
   - Creates a new hostgroup as defined and adds it to the list of provided prevention policies.  
 - Create_Group_Add_To_Update_Policy.py  
