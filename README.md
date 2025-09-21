@@ -1,3 +1,9 @@
+> Heads up  
+> These are educational samples. Do not deploy as is to production.  
+> Use proper authentication, secrets management, input validation, and least privilege IAM.  
+> Never commit real API keys, client secrets, refresh tokens, or customer data.  
+> If you find a security issue, see SECURITY.md for private disclosure steps.
+
 # FalconPy_Automations  
 Here you'll find samples of automations and scripts we've built to better our workflows and processes at Adobe.  
 The samples in the FalconPy Directory have all been fully integrated into the FalconPy Samples [https://github.com/CrowdStrike/falconpy](https://github.com/CrowdStrike/falconpy)  
