@@ -1,0 +1,12 @@
+title = "FalconPy Automations gitleaks config"
+redact = true
+enableGitHistory = true
+
+# Use built in rules. Keep allowlist empty unless you have a proven false positive.
+[rules]
+# Intentionally blank. Gitleaks will use its default detectors.
+
+[allowlist]
+description = "Keep strict by default. Add paths or regexes here only for proven false positives."
+paths = []
+regexes = []
